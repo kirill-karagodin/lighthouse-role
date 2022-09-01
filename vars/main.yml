@@ -1,0 +1,4 @@
+---
+# vars file for vector-lighthouse
+lighthouse_vcs: https://github.com/VKCOM/lighthouse.git
+lighthouse_log_name: lighthouse_log

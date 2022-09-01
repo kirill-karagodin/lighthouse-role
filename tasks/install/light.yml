@@ -1,0 +1,8 @@
+---
+# Install Lighthouse
+- name: Copy lighthouse rfom git
+  git:
+    repo: "{{ lighthouse_vcs }}"
+    version: master
+    dest: "{{ lighthouse_dir }}"
+  become: true
